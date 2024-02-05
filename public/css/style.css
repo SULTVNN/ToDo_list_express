@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(92, 111, 255);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.ToDo{
+    background-color: rgb(51, 75, 255);
+    margin: auto;
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    align-self: center;
+    padding: 10px 0px;
+}
+.ToForm{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+}
+.ToFormbtn{
+    background-color: rgb(92, 111, 255);
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.ToFormbtn:hover{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+.ToForminput{
+    border: 0px;
+    padding: 8px 30px;
+}
+.list-group-item:hover{
+    color: white;
+    cursor: pointer;
+}
